@@ -1,0 +1,23 @@
+:root {
+  --navy: #1a2b4c;
+  --coral: #ff6b5b;
+  --bg: #f4f6f9;
+  --border: #d9dee5;
+  --text: #1f2937;
+  font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+}
+
+button {
+  cursor: pointer;
+  font-family: inherit;
+}
